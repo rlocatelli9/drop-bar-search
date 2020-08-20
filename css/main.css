@@ -1,0 +1,194 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#selectBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:350px;
+}
+
+#btnBusca{
+  float:left;
+  cursor:pointer;
+  background: #444;
+  width: 38px;
+  height: 21px;
+  padding: 6px;
+}
+
+#btnIcone {
+}
+
+#divBusca img{
+  float:left;
+}
+
+#divBusca{
+  border:solid 6px rgba(47, 79, 79, 0.8);
+  border-radius:10px;
+  height:32px;
+  width:400px;
+}
+
+section.selectSearch{
+  background: #999;
+}
+
+header {
+  background: #222;
+  width: auto;
+  height: 45px;
+  color: #fff;
+  margin-top: 0;
+}
+
+nav, h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a > img {
+  width: 22px;
+  height: 22px;
+  margin-bottom: 25px;
+}
+
+/*
+  Style section de filtro
+*/
+
+section#headerBusca{
+  font: normal 14px Lato,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+  transition: all .4s;
+  z-index: 11;
+  background: #2A7AE4;
+}
+
+.container {
+  font: normal 14px Lato,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%;
+  max-width: 1200px;
+  position: relative;
+}
+
+.headerBusca-icon {
+  font: normal 14px Lato,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  top: 100%;
+  position: absolute;
+  right: 15px;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 11;
+  left: 120px;
+  transform: translateY(0);
+  border: 2px solid #2A7AE4;
+  background-color: #2A7AE4;
+}
+
+form#headerBusca-form {
+  font: normal 14px Lato,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  align-items: center;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  opacity: 1;
+  height: 35px;
+  padding: 12px 0 15px;
+  transition: height .5s,padding .5s,opacity .2s .2s;
+}
+
+form label {
+  font: normal 14px Lato,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+  font-size: 0.4em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: inline-block;
+  font-weight: 900;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+form select {
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  box-sizing: border-box;
+  font: normal 14px Lato,Arial,sans-serif;
+  display: inline-block;
+  padding: 0 10px;
+  vertical-align: middle;
+  height: 35px;
+  width: 60%;
+  outline: 0;
+  font-size: 16px;
+  border: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+form button {
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: inline-block;
+  background: #fff;
+  vertical-align: middle;
+  height: 35px;
+  font-size: .4em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 5px;
+  width: 10%;
+  min-width: 70px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border: none;
+  color: #2A7AE4;
+}

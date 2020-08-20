@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Menu superior</h1>
+    </nav>
+  </header>
+  <!-- <section class="selectSearch">
+    <div id="divBusca">
+      <select type="text" id="selectBusca" placeholder="Buscar...">
+        <option value="000000">Selecione...</option>
+        <option value="202001">Janeiro</option>
+        <option value="202002">Fevereiro</option>
+        <option value="202003">Março</option>
+        <option value="202004">Abril</option>
+        <option value="202005">Maio</option>
+        <option value="202006">Junho</option>
+        <option value="202007">Julho</option>
+        <option value="202008">Agosto</option>
+        <option value="202009">Setembro</option>
+        <option value="202010">Outubro</option>
+        <option value="202011">Novembro</option>
+        <option value="202012">Dezembro</option>
+      </select>
+      <img src="img/search.svg" alt="Buscar..." id="btnBusca"/>
+    </div>
+    <a href="http://" target="_blank" rel="noopener noreferrer"></a>
+  </section> -->
+  <section id="headerBusca" class="headerBusca headerBusca-desktop">
+    <div class="container">
+      <a href="#" aria-label="Filtrar" id="headerBusca-icon-a" class="headerBusca-icon" role="button" aria-expanded="true" aria-controls="headerBusca-form">
+        <img src="img/filter.png" alt="Filtrar">          
+      </a>
+      <form action="/search" id="headerBusca-form" class="headerBusca-form headerBusca-form--retratil headerBusca-form--active" aria-hidden="true">
+        <label for="headerBusca-campoBusca">Filtrar pelo mês</label>
+        <select type="search" class="skipKeyPress headerBusca-form-input" id="headerBusca-campoBusca" name="query" placeholder="Selecione...">
+          <option value="000000">Selecione...</option>
+          <option value="202001">Janeiro</option>
+          <option value="202002">Fevereiro</option>
+          <option value="202003">Março</option>
+          <option value="202004">Abril</option>
+          <option value="202005">Maio</option>
+          <option value="202006">Junho</option>
+          <option value="202007">Julho</option>
+          <option value="202008">Agosto</option>
+          <option value="202009">Setembro</option>
+          <option value="202010">Outubro</option>
+          <option value="202011">Novembro</option>
+          <option value="202012">Dezembro</option>
+        </select>
+        <button class="headerBusca-submit" type="submit">Buscar</button>
+      </form>
+    </div>
+</section>
+  <section>
+    <article>
+      um artigo aqui
+    </article>
+    <article>
+      um artigo aqui
+    </article>
+    <article>
+      um artigo aqui
+    </article>
+    outras coisas aqui
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
